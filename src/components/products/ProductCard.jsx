@@ -15,7 +15,7 @@ export const ProductCard = ({ product, onAddToCart }) => {
         <p className="text-sm text-gray-500 mb-2">{product.category}</p>
         <div className="flex justify-between items-center">
           <span className="text-2xl font-bold text-purple-600">
-            ${product.price}
+            S./{product.price}
           </span>
           <span className="text-sm text-gray-500">
             {product.stock} disponibles
