@@ -3,7 +3,7 @@ export const CartSummary = ({ total, onCheckout, user }) => {
     <div className="bg-white rounded-lg shadow-md p-6">
       <div className="flex justify-between items-center text-xl font-bold mb-6">
         <span>Total:</span>
-        <span className="text-purple-600">${total.toFixed(2)}</span>
+        <span className="text-purple-600">S./{total.toFixed(2)}</span>
       </div>
       <button
         onClick={onCheckout}
