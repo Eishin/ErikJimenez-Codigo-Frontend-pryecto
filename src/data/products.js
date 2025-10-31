@@ -4,7 +4,7 @@ export const PRODUCTS = [
     name: 'Laptop Pro 15"', 
     price: 1299, 
     category: 'electronics', 
-    image: '💻', 
+    image: 'https://www.trustindex.io/wp-content/uploads/2023/04/77f2c23f-d88e-489f-96da-e83d30c1a328-1024x683.png', 
     stock: 5, 
     description: 'Potente laptop para profesionales', 
     specs: ['Intel i7 11th Gen', '16GB RAM', '512GB SSD', 'Pantalla 15.6" FHD'] 
