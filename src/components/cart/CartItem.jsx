@@ -10,7 +10,7 @@ export const CartItem = ({ item, onUpdateQuantity, onRemove }) => {
       />
       <div className="flex-1">
         <h3 className="font-semibold text-lg">{item.name}</h3>
-        <p className="text-gray-600">${item.price}</p>
+        <p className="text-gray-600">S./{item.price}</p>
       </div>
       <div className="flex items-center space-x-2">
         <button
@@ -30,7 +30,7 @@ export const CartItem = ({ item, onUpdateQuantity, onRemove }) => {
       </div>
       <div className="text-right">
         <p className="font-bold text-lg">
-          ${(item.price * item.quantity).toFixed(2)}
+          S./{(item.price * item.quantity).toFixed(2)}
         </p>
       </div>
       <button
